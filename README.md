@@ -1,4 +1,9 @@
-# DeskBrightness
+<div align="center">
+  <img src="https://raw.githubusercontent.com/mt-alts/DeskBrightness/refs/heads/master/icon.png" width="64" height="64" alt="DeskBrightness">
+  <h1>DeskBrightness</h1>
+</div>
+
+![Version](https://img.shields.io/badge/version-1.0.0-brightgreen) [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mt-alts/DeskBrightness/refs/heads/master/LICENSE)
 
 Turn your Android phone into an ambient light sensor and automatically adjust your Windows display brightness.
 
