@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src\DeskBrightness.Adb\DeskBrightness.Adb.csproj" />
+  <Project Path="src\DeskBrightness\DeskBrightness.csproj" />
+  <Project Path="src\DeskBrightness.Core\DeskBrightness.Core.csproj" />
+  <Project Path="src\DeskBrightness.Test\DeskBrightness.Test.csproj" Id="837f673d-9cef-4a3a-872a-0cd4b7269721" />
+  <Project Path="src\DeskBrightness.Win\DeskBrightness.Win.csproj" />
+</Solution>

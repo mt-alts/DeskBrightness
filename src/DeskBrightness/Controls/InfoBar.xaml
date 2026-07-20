@@ -1,0 +1,83 @@
+<UserControl
+  x:Class="DeskBrightness.Controls.InfoBar"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  mc:Ignorable="d"
+  d:DesignWidth="400"
+>
+  <Border
+    x:Name="AccentBorder"
+    BorderThickness="3,0,0,0"
+    CornerRadius="6"
+    Padding="0"
+    Background="#0D1628"
+  >
+    <Border
+      CornerRadius="0,6,6,0"
+      Padding="12,10"
+      Background="{DynamicResource ControlFillColorDefaultBrush}"
+    >
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Border
+          x:Name="IconBorder"
+          Width="28"
+          Height="28"
+          CornerRadius="14"
+          VerticalAlignment="Top"
+        >
+          <TextBlock
+            x:Name="IconText"
+            FontFamily="Segoe MDL2 Assets"
+            FontSize="14"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+          />
+        </Border>
+
+        <StackPanel Grid.Column="1" Margin="10,0,10,0" VerticalAlignment="Center">
+          <TextBlock
+            x:Name="TitleText"
+            FontSize="12"
+            FontWeight="SemiBold"
+            TextTrimming="CharacterEllipsis"
+          />
+          <TextBlock
+            x:Name="MessageText"
+            FontSize="11"
+            Opacity="0.8"
+            TextWrapping="Wrap"
+            TextTrimming="CharacterEllipsis"
+          />
+        </StackPanel>
+
+          <Button
+          x:Name="CloseButton"
+          Grid.Column="2"
+          Width="28"
+          Height="28"
+          Padding="0"
+          VerticalAlignment="Top"
+          Background="Transparent"
+          BorderThickness="0"
+          Cursor="Hand"
+          Opacity="0.5"
+          Click="CloseButton_Click"
+        >
+          <TextBlock
+            FontFamily="Segoe MDL2 Assets"
+            FontSize="10"
+            Text="&#xE894;"
+          />
+        </Button>
+      </Grid>
+    </Border>
+  </Border>
+</UserControl>

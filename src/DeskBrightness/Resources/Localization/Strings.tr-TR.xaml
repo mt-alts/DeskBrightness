@@ -1,0 +1,180 @@
+<ResourceDictionary
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:sys="clr-namespace:System;assembly=mscorlib"
+>
+  <sys:String x:Key="AppTitle">DeskBrightness</sys:String>
+  <sys:String x:Key="AppSubtitle">Otomatik ekran parlaklığı aracı</sys:String>
+  <sys:String x:Key="SettingsTitle">Ayarlar</sys:String>
+  <sys:String x:Key="HelpTooltip">Yardım</sys:String>
+  <sys:String x:Key="SettingsSubtitle">Parlaklık davranışını ayarla.</sys:String>
+  <sys:String x:Key="BackTooltip">Geri</sys:String>
+  <sys:String x:Key="AdbDeviceTitle">ADB Cihazı</sys:String>
+  <sys:String x:Key="RefreshTooltip">Yenile</sys:String>
+  <sys:String x:Key="AddTooltip">Ekle</sys:String>
+  <sys:String x:Key="TcpIpMenuItem">TCP/IP</sys:String>
+  <sys:String x:Key="PairMenuItem">Eşleştir</sys:String>
+  <sys:String x:Key="BrightnessTitle">Ekran parlaklığı</sys:String>
+  <sys:String x:Key="ConnectButton">Bağlan</sys:String>
+  <sys:String x:Key="CancelButton">İptal Et</sys:String>
+  <sys:String x:Key="LogsTitle">Loglar</sys:String>
+  <sys:String x:Key="MinimumBrightness">Minimum parlaklık</sys:String>
+  <sys:String x:Key="MaximumBrightness">Maximum parlaklık</sys:String>
+  <sys:String x:Key="LuxThreshold">Lux değişim eşiği</sys:String>
+  <sys:String x:Key="BrightnessStepThreshold">Parlaklık adım eşiği</sys:String>
+  <sys:String x:Key="SmoothingWindowSize">Yumuşatma penceresi</sys:String>
+  <sys:String x:Key="MinimumApplyInterval">Minimum uygulama aralığı</sys:String>
+  <sys:String x:Key="Language">Dil</sys:String>
+  <sys:String x:Key="LanguageEnglish">İngilizce</sys:String>
+  <sys:String x:Key="LanguageTurkish">Türkçe</sys:String>
+  <sys:String x:Key="TcpIpDialogTitle">ADB TCP/IP Bağlantısı</sys:String>
+  <sys:String x:Key="TcpIpDialogHeader">Kablosuz ADB Bağlantısı</sys:String>
+  <sys:String x:Key="TcpIpDialogDescription"
+    >Cihazınızda görüntülenen IP adresini ve bağlantı portunu giriniz.</sys:String
+  >
+  <sys:String x:Key="IpAddress">IP Adresi</sys:String>
+  <sys:String x:Key="Port">Bağlantı Portu</sys:String>
+  <sys:String x:Key="TryConnect">Bağlan</sys:String>
+  <sys:String x:Key="PairDialogTitle">ADB Eşleştirme</sys:String>
+  <sys:String x:Key="PairDialogHeader">Kablosuz Cihaz ile Eşleştir</sys:String>
+  <sys:String x:Key="PairDialogDescription"
+    >Cihazınızda görüntülenen eşleştirme IP adresini, portunu ve doğrulama kodunu giriniz.</sys:String
+  >
+  <sys:String x:Key="PairingCode">Doğrulama Kodu</sys:String>
+  <sys:String x:Key="TryPair">Eşleştir</sys:String>
+  <sys:String x:Key="RuntimePreparing">Bağlantı kuruluyor…</sys:String>
+  <sys:String x:Key="RuntimeStarted">Telefona başarıyla bağlanıldı.</sys:String>
+  <sys:String x:Key="RuntimeStopped">Bağlantı sonlandırıldı.</sys:String>
+  <sys:String x:Key="BrightnessUpdated">Parlaklık güncellendi.</sys:String>
+  <sys:String x:Key="AndroidBrightnessReceived">Android parlaklık değeri alındı.</sys:String>
+  <sys:String x:Key="DataChannelReady">Bağlantı kuruldu.</sys:String>
+  <sys:String x:Key="DataChannelClosed">Bağlantı kapatıldı.</sys:String>
+  <sys:String x:Key="DataCollectionStarted">Sensör servisi başlatıldı.</sys:String>
+  <sys:String x:Key="BackgroundStreamStoppedUnexpectedly">Bağlantı koptu.</sys:String>
+  <sys:String x:Key="BackgroundStreamFailed">Bağlantı başarısız oldu</sys:String>
+  <sys:String x:Key="BackgroundStreamStarted">Sensör akışı başlatıldı.</sys:String>
+  <sys:String x:Key="RequiredBackgroundFileMissing">Gerekli dosyalar bulunamadı.</sys:String>
+  <sys:String x:Key="DevicesFound">{0} cihaz bulundu.</sys:String>
+  <sys:String x:Key="TcpIpConnecting">TCP/IP bağlantısı gerçekleştiriliyor: {0}</sys:String>
+  <sys:String x:Key="PairConnecting">Eşleştirme bağlantısı gerçekleştiriliyor: {0}</sys:String>
+  <sys:String x:Key="InvalidIpError">Geçerli bir IP adresi girin.</sys:String>
+  <sys:String x:Key="InvalidPortError">Port 1 ile 65535 arasında olmalı.</sys:String>
+  <sys:String x:Key="PairingCodeRequired">Eşleştirme kodu gerekli.</sys:String>
+  <sys:String x:Key="MinimizeToTray">Kapatınca tepsiye küçült</sys:String>
+  <sys:String x:Key="CheckForUpdatesOnStartup">Açılışta güncelleme kontrolü</sys:String>
+  <sys:String x:Key="TrayExit">Çıkış</sys:String>
+  <sys:String x:Key="TrayShow">DeskBrightness'i Göster</sys:String>
+  <sys:String x:Key="HelpTitle">Yardım</sys:String>
+  <sys:String x:Key="HelpSubtitle">Hızlı başlangıç ve temel kullanım.</sys:String>
+  <sys:String x:Key="HelpSectionAbout">HAKKINDA</sys:String>
+  <sys:String x:Key="HelpAboutTitle">Bu uygulama nedir?</sys:String>
+  <sys:String x:Key="HelpAboutBody"
+    >DeskBrightness, Android telefonunuzu ışık sensörü olarak kullanır ve ortam ışığına göre Windows ekran parlaklığını yumuşakça ayarlar.</sys:String
+  >
+  <sys:String x:Key="HelpSectionSetup">KURULUM</sys:String>
+  <sys:String x:Key="HelpSetupStep1Title">1. USB hata ayıklamayı etkinleştirin</sys:String>
+  <sys:String x:Key="HelpSetupStep1Body"
+    >Ayarlar → Telefon hakkında → Derleme numarasına 7 kez dokunarak Geliştirici Seçenekleri'ni açın. Ayarlar → Sistem → Geliştirici Seçenekleri → USB hata ayıklamayı etkinleştirin. Kablosuz bağlantı için Kablosuz hata ayıklama'yı da açın ve Eşleştirme koduyla eşleştir seçeneğine dokunun.</sys:String
+  >
+  <sys:String x:Key="HelpSetupStep2Title">2. Cihazı bağlayın</sys:String>
+  <sys:String x:Key="HelpSetupStep2Body"
+    >USB kablo ile bağlayın veya cihaz listesinin yanındaki + butonuna tıklayıp Eşleştir seçeneğini kullanarak kablosuz bağlantı ekleyin. Bağlantı sağlandığında cihaz listede görünecektir.</sys:String
+  >
+  <sys:String x:Key="HelpSetupStep3Title">3. Başlatın</sys:String>
+  <sys:String x:Key="HelpSetupStep3Body"
+    >Listeden bir cihaz seçin ve Bağlan'a basın. DeskBrightness otomatik olarak ortam ışığını algılar ve ekran parlaklığınızı gerçek zamanlı ayarlar.</sys:String
+  >
+  <sys:String x:Key="HelpSectionUpdates">GÜNCELLEMELER</sys:String>
+  <sys:String x:Key="HelpVersionTitle">Sürüm</sys:String>
+  <sys:String x:Key="HelpCheckUpdatesButton">Güncelleme Kontrolü</sys:String>
+  <sys:String x:Key="HelpUpdateCheckReady"
+    >Yeni bir sürüm olup olmadığını kontrol etmek için butona basın.</sys:String
+  >
+  <sys:String x:Key="HelpUpdateChecking">Kontrol ediliyor…</sys:String>
+  <sys:String x:Key="HelpUpdateAvailable">Yeni bir sürüm mevcut!</sys:String>
+  <sys:String x:Key="HelpDownloadButton">İndir</sys:String>
+  <sys:String x:Key="HelpSectionThirdParty">ÜÇÜNCÜ TARAF</sys:String>
+  <sys:String x:Key="HelpSectionLegal">YASAL</sys:String>
+  <sys:String x:Key="HelpCopyrightTitle">Telif Hakkı</sys:String>
+  <sys:String x:Key="HelpCopyrightBody"
+    >Telif Hakkı © 2025–2026 Metin Altıkardeş. Bu uygulama MIT lisansı altında sağlanmaktadır.</sys:String
+  >
+  <sys:String x:Key="HelpLicenseLink">GitHub'da Lisansı Görüntüle</sys:String>
+  <sys:String x:Key="UpdateStoreChecking">Store güncellemeleri kontrol ediliyor...</sys:String>
+  <sys:String x:Key="UpdateStoreDownloading">{0} güncelleme indiriliyor...</sys:String>
+  <sys:String x:Key="UpdateStoreCompleted"
+    >Güncelleme tamamlandı. Yeniden başlatılıyor...</sys:String
+  >
+  <sys:String x:Key="UpdateStoreCanceled">Güncelleme iptal edildi.</sys:String>
+  <sys:String x:Key="UpdateStoreFailed">Güncelleme başarısız: {0}</sys:String>
+  <sys:String x:Key="UpdateGitHubChecking">GitHub üzerinde kontrol ediliyor...</sys:String>
+  <sys:String x:Key="UpdateCheckingFailed">Güncelleme kontrolü başarısız: {0}</sys:String>
+  <sys:String x:Key="UpdateUpToDate">En son sürüm kullanılıyor.</sys:String>
+  <sys:String x:Key="UpdateAvailable">Güncelleme mevcut: {0}</sys:String>
+  <sys:String x:Key="UpdateDownloading">İndiriliyor: {0}</sys:String>
+  <sys:String x:Key="UpdateDownloadingProgress">Güncelleme indiriliyor…</sys:String>
+  <sys:String x:Key="UpdateStarting">Güncelleme başlatılıyor…</sys:String>
+  <sys:String x:Key="UpdateDownloaded">İndirme tamamlandı: {0}</sys:String>
+  <sys:String x:Key="UpdateDialogTitle">Güncelleme Mevcut</sys:String>
+  <sys:String x:Key="UpdateDialogDescription"
+    >Yeni bir sürüm bulundu. Şimdi indirmek ister misiniz?</sys:String
+  >
+  <sys:String x:Key="UpdateDialogCurrentVersion">Mevcut sürüm</sys:String>
+  <sys:String x:Key="UpdateDialogNewVersion">Yeni sürüm</sys:String>
+  <sys:String x:Key="UpdateDialogDownload">İndir</sys:String>
+  <sys:String x:Key="UpdateDialogSkip">Atla</sys:String>
+  <sys:String x:Key="AdbErrorProtocolFault"
+    >Bağlantı başarısız. Cihazda kablosuz hata ayıklamanın açık olduğunu doğrulayın.</sys:String
+  >
+  <sys:String x:Key="AdbErrorUnauthorized"
+    >Cihaz yetkilendirilmedi. Telefonunuzdaki yetkilendirme istemini kabul edin.</sys:String
+  >
+  <sys:String x:Key="AdbErrorConnectionRefused"
+    >Bağlantı reddedildi. Cihazda kablosuz hata ayıklamanın açık olduğundan emin olun.</sys:String
+  >
+  <sys:String x:Key="AdbErrorCannotConnect"
+    >Cihaza bağlanılamadı. IP adresini kontrol edin.</sys:String
+  >
+  <sys:String x:Key="AdbErrorTimeout"
+    >Bağlantı zaman aşımına uğradı. Cihazın aynı ağda olduğunu kontrol edin.</sys:String
+  >
+  <sys:String x:Key="AdbErrorNoDevice"
+    >Cihaz bulunamadı. Cihazın bağlı olduğundan ve ADB hata ayıklamanın etkin olduğundan emin olun.</sys:String
+  >
+  <sys:String x:Key="AdbErrorPairingCode"
+    >Eşleştirme kodu hatalı. Cihazınızda görüntülenen kodu kontrol edin.</sys:String
+  >
+  <sys:String x:Key="AdbErrorGeneric">ADB işlemi başarısız. Lütfen tekrar deneyin.</sys:String>
+  <sys:String x:Key="InfoBarTitleError">Hata</sys:String>
+  <sys:String x:Key="InfoBarTitleInfo">Bilgi</sys:String>
+  <sys:String x:Key="ProfileApplyFailed">Ayar uygulanamadı</sys:String>
+  <sys:String x:Key="DeviceWarningEmulator">Fiziksel cihaz değil</sys:String>
+  <sys:String x:Key="DeviceWarningUnauthorized">ADB yetkisi verilmemiş</sys:String>
+  <sys:String x:Key="DeviceWarningOffline">Cihaz çevrimdışı</sys:String>
+  <sys:String x:Key="DeviceWarningState">ADB durumu: {0}</sys:String>
+  <sys:String x:Key="BrightnessApplyError">Parlaklık uygulama hatası</sys:String>
+  <sys:String x:Key="BrightnessApplyFailed">Parlaklık uygulama başarısız</sys:String>
+  <sys:String x:Key="DeviceNotReady">Secilen ADB cihazi hazir degil: {0}</sys:String>
+  <sys:String x:Key="NoDeviceFound">Hazir ADB cihazi bulunamadi.</sys:String>
+  <sys:String x:Key="TcpInvalidFrameLength">Geçersiz çerçeve uzunluğu</sys:String>
+  <sys:String x:Key="TcpConnectionError">TCP bağlantı hatası</sys:String>
+  <sys:String x:Key="TcpParseError">Geçersiz mesaj biçimi</sys:String>
+  <sys:String x:Key="TcpInvalidBody">Mesaj lüks veya parlaklık içermeli</sys:String>
+  <sys:String x:Key="AdbNotFound"
+    >ADB bulunamadı. Android Platform Tools kurulu olmalı ve adb.exe PATH içinde görünmeli.</sys:String
+  >
+  <sys:String x:Key="DecisionLuxBelowThreshold">Lux değişimi eşik değerin altında.</sys:String>
+  <sys:String x:Key="DecisionStepBelowThreshold"
+    >Parlaklık değişimi adım eşiğinin altında.</sys:String
+  >
+  <sys:String x:Key="DecisionMinIntervalNotElapsed">Minimum uygulama aralığı dolmadı.</sys:String>
+  <sys:String x:Key="ShutdownAdbOnExit">Kapanışta ADB'yi çalışır bırak</sys:String>
+  <sys:String x:Key="AdbPathEmpty">ADB yolu boş olamaz.</sys:String>
+  <sys:String x:Key="AdbHostEmpty">ADB sunucu adı boş olamaz.</sys:String>
+  <sys:String x:Key="AdbPortRange">Port 1 ile 65535 arasında olmalı.</sys:String>
+  <sys:String x:Key="AdbPairingCodeEmpty">ADB eşleştirme kodu boş olamaz.</sys:String>
+  <sys:String x:Key="AdbDeviceNotFound">ADB cihazı bulunamadı</sys:String>
+  <sys:String x:Key="SettingsSectionGeneral">GENEL</sys:String>
+  <sys:String x:Key="SettingsSectionBrightness">PARLAKLIK</sys:String>
+  <sys:String x:Key="SettingsSectionSmoothing">YUMUŞATMA</sys:String>
+</ResourceDictionary>
